@@ -573,7 +573,7 @@ header {
 /* Links */
 
 .links {
-  background-image: url(../images/Links.jpg);
+  background-image: url(../images/links.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 165px 0 156px 0;
@@ -879,6 +879,10 @@ footer {
 @media only screen and (max-width: 768px) {
   /* Header 768px*/
 
+  header {
+    padding-top: 20px;
+  }
+
   .nav-toggle__item {
     height: 3px;
     background-color: #ffffff;
@@ -1091,11 +1095,38 @@ footer {
 }
 
 @media only screen and (max-width: 576px) {
+  /* Header 768px*/
+
+  header {
+    padding-top: 17px;
+  }
+
+  .nav-toggle__item {
+    height: 3px;
+    background-color: #ffffff;
+  }
+
+  .nav-toggle__item:before,
+  .nav-toggle__item:after {
+    background-color: #ffffff;
+    height: 3px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  /* /Header 768px*/
+
   /* Intro 576px */
 
   .intro {
     padding: 170px 0 0 0;
-    min-height: 680px;
+    min-height: 675px;
   }
 
   .intro-content {
@@ -1104,7 +1135,7 @@ footer {
   }
 
   .intro-img {
-    max-width: 280px;
+    max-width: 275px;
     bottom: 45px;
   }
 
@@ -1333,7 +1364,7 @@ footer {
 
   .intro {
     padding: 160px 0 0 0;
-    min-height: 640px;
+    min-height: 610px;
   }
 
   .intro-img {
