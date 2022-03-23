@@ -900,6 +900,7 @@ footer {
 
   .nav-toggle {
     display: block;
+    top: 35px;
   }
 
   /* /Header 768px*/
@@ -923,8 +924,8 @@ footer {
   }
 
   .nav-toggle {
-    top: 44px;
-    right: 35px;
+    top: 35px;
+    right: 44px;
   }
 
   .intro-img {
@@ -1097,10 +1098,6 @@ footer {
 @media only screen and (max-width: 576px) {
   /* Header 576px*/
 
-  header {
-    padding-top: 17px;
-  }
-
   .nav-toggle__item {
     height: 3px;
     background-color: #ffffff;
@@ -1117,7 +1114,6 @@ footer {
   }
 
   .nav-toggle {
-    display: block;
   }
 
   /* /Header 576px*/
