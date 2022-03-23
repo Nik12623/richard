@@ -1164,7 +1164,7 @@ footer {
 
   .intro-arrow {
     width: 12px;
-    height: 30px;
+    height: 50px;
   }
 
   .intro-arrow div {
@@ -1376,7 +1376,7 @@ footer {
 
   .intro-img {
     max-width: 225px;
-    bottom: 60px;
+    bottom: 80px;
   }
 
   /* /Intro 360px */
