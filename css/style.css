@@ -902,10 +902,6 @@ footer {
     display: block;
   }
 
-  .nav-toggle {
-    top: 35px;
-  }
-
   /* /Header 768px*/
 
   /* Intro 768px*/
@@ -1124,9 +1120,6 @@ footer {
     display: block;
   }
 
-  .nav-toggle {
-    top: 32px;
-  }
   /* /Header 576px*/
 
   /* Intro 576px */
@@ -1164,7 +1157,7 @@ footer {
 
   .intro-arrow {
     width: 12px;
-    height: 50px;
+    height: 30px;
   }
 
   .intro-arrow div {
@@ -1371,12 +1364,11 @@ footer {
 
   .intro {
     padding: 160px 0 0 0;
-    /* min-height: 610px; */
   }
 
   .intro-img {
     max-width: 225px;
-    bottom: 80px;
+    bottom: 105px;
   }
 
   /* /Intro 360px */
