@@ -576,6 +576,7 @@ header {
   background-image: url(../images/links.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   padding: 165px 0 156px 0;
 }
 
@@ -1133,6 +1134,9 @@ footer {
   .intro-img {
     max-width: 275px;
     bottom: 45px;
+    object-fit: cover;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .intro-title {
