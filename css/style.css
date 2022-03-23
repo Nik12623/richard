@@ -924,11 +924,6 @@ footer {
     margin-bottom: 15px;
   }
 
-  .nav-toggle {
-    top: 35px;
-    right: 44px;
-  }
-
   .intro-img {
     max-width: 370px;
     bottom: 65px;
@@ -1112,9 +1107,6 @@ footer {
 
   .menu {
     display: none;
-  }
-
-  .nav-toggle {
   }
 
   /* /Header 576px*/
