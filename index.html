@@ -12,28 +12,89 @@
     <link rel="stylesheet" href="https://resources/demos/style.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Richard</title>
 </head>
 
 <body>
 
+    <div id="dialog" title="Attention!">
+        <p>Orders will be accepted from 06/06/2022</p>
+    </div>
+
+<nav>
+	<div class="menu-btn">
+		<div class="line line__1"></div>
+		<div class="line line__2"></div>
+		<div class="line line__3"></div>
+	</div>
+
+	<div class="sub-menu-btn">
+		<div class="line line__1"></div>
+		<div class="line line__2"></div>
+	</div>
+
+	<ul class="nav-links">
+		<li class="link">
+			<a href="#">Home</a>
+		</li>
+		<li class="link">
+			<a href="#">About</a>
+			<ol>
+				<li><a href="#">designers</a></li>
+				<li><a href="#">developers</a></li>
+			</ol>
+		</li>
+		<li class="link">
+			<a href="#">Work</a>
+			<ol>
+				<li><a href="#">web</a></li>
+				<li><a href="#">graphic </a></li>
+				<li><a href="#">apps </a></li>
+			</ol>
+		</li>
+		<li class="link">
+			<a href="#">Contact</a>
+			<ol>
+				<li><a href="#">Email</a></li>
+				<li><a href="#">Social</a></li>
+			</ol>
+		</li>
+		<li class="link">
+			<a href="#">follow me</a>
+			<ol>
+				<li>
+					<a target="_blank" href="https://twitter.com/DevLoop01">
+						Twitter <i class="fab fa-twitter"></i>
+					</a>
+				</li>
+				<li>
+					<a target="_blank" href="https://codepen.io/dev_loop/">
+						Codepen <i class="fab fa-codepen"></i>
+					</a>
+				</li>
+			</ol>
+		</li>
+	</ul>
+</nav>
+
     <!-- Header -->
     <header>
         <div class="container">
             <div class="header-inner">
                 <a class="logo" href="#"><img src="images/logo.svg" alt="logo"></a>
-                <nav class="menu">
+                <div class="nav">
                     <ul class="actions">
                         <li><a class="action-link" href="#">About</a></li>
                         <li><a class="action-link" href="#">Features</a></li>
                         <li><a class="action-link" href="#">How to Use</a></li>
                         <li><a class="action-link" href="#">Download</a></li>
                     </ul>
-                </nav>
-                <button class="nav-toggle" type="button">
+                </div>
+                <!-- <button class="nav-toggle" type="button">
                     <span class="nav-toggle__item">Menu</span>
-                </button>
+                </button> -->
             </div>
         </div>
     </header>
@@ -260,10 +321,6 @@
         </div>
         <img class="recommendations-img" src="images/recommendations.jpg" alt="partners-img">
     </section>
-
-    <div id="dialog" title="Attention!">
-        <p>Orders will be accepted from 06/06/2022</p>
-    </div>
 
     <!-- /Recommendations -->
 

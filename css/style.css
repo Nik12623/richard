@@ -1,3 +1,11 @@
+html {
+  overflow-x: hidden;
+}
+
+nav {
+  display: none;
+}
+
 *,
 *:before,
 *:after {
@@ -39,7 +47,7 @@ header {
 }
 
 .header-inner,
-.menu,
+.nav,
 .actions {
   display: flex;
   justify-content: space-between;
@@ -77,7 +85,7 @@ header {
   transition: color 0.2s linear;
 }
 
-.nav-toggle {
+/* .nav-toggle {
   display: none;
   width: 30px;
   padding: 9px 0;
@@ -124,7 +132,7 @@ header {
 
 .nav-toggle__item:after {
   bottom: -8px;
-}
+} */
 
 /* /Header */
 
@@ -139,6 +147,7 @@ header {
     ),
     #cf0063;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   height: 100vh;
   padding: 298px 0 0 0;
@@ -880,6 +889,10 @@ footer {
 @media only screen and (max-width: 768px) {
   /* Header 768px*/
 
+  nav {
+    display: flex;
+  }
+
   header {
     padding-top: 20px;
   }
@@ -895,7 +908,7 @@ footer {
     height: 3px;
   }
 
-  .menu {
+  .nav {
     display: none;
   }
 
@@ -1105,7 +1118,7 @@ footer {
     height: 3px;
   }
 
-  .menu {
+  .nav {
     display: none;
   }
 
