@@ -42,7 +42,7 @@ nav .nav-links li {
   height: var(--link-height);
   list-style: none;
   opacity: 0;
-  transform: translateX(-50%);
+  transform: translateX(-0%);
   transition: all var(--transition-time) cubic-bezier(0.8, 0, 0.33, 0.9);
   transition-delay: calc(30ms + var(--delay));
   cursor: pointer;
