@@ -60,11 +60,11 @@ nav .nav-links .hover-el {
   position: absolute;
   width: 100%;
   height: var(--link-height);
-  /*top: var(--y);*/
-  /*left: var(--x);*/
+  top: var(--y);
+  left: var(--x);
   opacity: 0;
   background: radial-gradient(
-    /*circle at var(--mousex) var(--mousey),*/
+    circle at var(--mousex) var(--mousey),
     rgba(0, 0, 0, 0.15) 0%,
     rgba(0, 0, 0, 0.45) 100%
   );

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="https://resources/demos/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;700&display=swap" rel="stylesheet">
@@ -67,7 +68,7 @@
 
     <section class="intro">
         <div class="intro-inner">
-            <img class="intro-img" src="images/intro.png" alt="intro-img">
+            <img class="intro-img" src="images/intro.png" alt="intro-img" data-aos="zoom-in" data-aos-once="true" data-aos-duration="1350">
             <div class="container">
                 <div class="intro-content">
                     <h1 class="intro-title">Momentum</h1>
@@ -109,7 +110,7 @@
             
             <div class="benefits-inner">
 
-                <div class="benefits_item">
+                <div class="benefits_item" data-aos="fade-right" data-aos-once="true" data-aos-duration="1500">
                     <div class="benefits_col first">
                         <p class="middle-text">Aenean Consectetur</p>
                         <p class="title">Cay sociis nato que penatibus et</p>
@@ -120,7 +121,7 @@
                         <img src="images/benefits_one.jpg" alt="benefits_one">
                     </div>
                 </div>
-                <div class="benefits_item benefits_item_out">
+                <div class="benefits_item benefits_item_out" data-aos="fade-left" data-aos-once="true" data-aos-duration="1500">
                     <div class="benefits_col second wide-img">
                         <img src="images/benefits_two.jpg" alt="benefits_two">
                     </div>
@@ -131,7 +132,7 @@
                             Suspendisse varius enim in eros elementum tristique.</p>
                     </div>
                 </div>
-                <div class="benefits_item">
+                <div class="benefits_item" data-aos="fade-right" data-aos-once="true" data-aos-duration="1500">
                     <div class="benefits_col first">
                         <p class="middle-text">Aenean Consectetur Porta</p>
                         <p class="title">Magna Porta Sit Bibendum</p>
@@ -207,7 +208,7 @@
 
                 <div class="benefits-inner benefits_two">
 
-                    <div class="benefits_item">
+                    <div class="benefits_item" data-aos="fade-left" data-aos-once="true" data-aos-duration="1500">
                         <div class="benefits_col first">
                             <p class="middle-text">Aenean Consectetur Porta</p>
                             <p class="title">Sem Risus Elit Vestibulum</p>
@@ -222,7 +223,7 @@
                         </div>
                     </div>
 
-                    <div class="benefits_item benefits_item_out">
+                    <div class="benefits_item benefits_item_out" data-aos="fade-right" data-aos-once="true" data-aos-duration="1500">
                         <div class="benefits_col second">
                             <img src="images/benefits_five.jpg" alt="benefits_five">
                         </div>
@@ -351,6 +352,10 @@
     </script>
     <script src="js/owl.carousel.js"></script>
     <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     <script src="js/script.js"></script>
 
 </body>
